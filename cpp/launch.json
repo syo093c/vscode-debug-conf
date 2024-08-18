@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Attach to gdbserver",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/cpp/a.out", // the program to connect
+        "cwd": "${workspaceFolder}",
+        "environment": [],
+        "MIMode": "gdb",
+        "miDebuggerPath": "/usr/bin/gdb",
+        "miDebuggerServerAddress": "127.0.0.1:1234",
+      }
+    ]
+  }
+  

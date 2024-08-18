@@ -1,0 +1,1 @@
+gdbserver :1234 ./a.out
