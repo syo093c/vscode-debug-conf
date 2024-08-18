@@ -1,1 +1,1 @@
- p -m debugpy --wait-for-client --listen 5678 a.py
+ python -m debugpy --wait-for-client --listen 5678 python/a.py
